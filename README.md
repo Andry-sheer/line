@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Learn Project</h1>
+  <h1 className="text-yellow-500">Learn Project</h1>
   <img src="https://www.svgrepo.com/show/373703/js.svg" alt="icon" width="50" height="50" />
   <img src="https://www.svgrepo.com/show/452092/react.svg" alt="icon" width="50" height="50" />
   <img src="https://www.svgrepo.com/show/452075/node-js.svg" alt="icon" width="50" height="50" />
