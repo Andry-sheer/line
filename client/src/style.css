@@ -1,0 +1,33 @@
+.myHeader {
+  background: #2B2B2B;
+}
+
+.myBG {
+  color: whitesmoke;
+  background: #2B2B2B;
+}
+
+.Contr {
+  background: #3B3B3B;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 384px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+.imgCont {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.myRadius {
+  border-radius: 20px;
+}

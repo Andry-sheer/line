@@ -5,8 +5,12 @@ import SingIn from './pages/SingIn';
 import SingUp from './pages/SingUp';
 import About from './pages/About';
 import Dashboard from './pages/Dashboard';
-import Projects from './pages/Projects';
+import Marketplace from './pages/Marketplace';
+import Wallet from './pages/Wallet';
+import Rankings from './pages/Rankings';
+
 import Header from './components/Header';
+
 
 
 const App = () => {
@@ -20,7 +24,9 @@ const App = () => {
         <Route path='/sing-up' element={<SingUp/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/dashboard' element={<Dashboard/>} />
-        <Route path='/projects' element={<Projects/>} />
+        <Route path='/wallet' element={<Wallet/>} />
+        <Route path='/rankings' element={<Rankings/>} />
+        <Route path='/marketplace' element={<Marketplace/>} />
       </Routes>
     </BrowserRouter>
   )
